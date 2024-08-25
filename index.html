@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Assignment</title>
+    <!-- tailwind CDN  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyUI CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/4d88beb644.js" crossorigin="anonymous"></script>
+    <!-- font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+    .font-manrope{
+        font-family: "Manrope", sans-serif;
+    }
+    </style>
+    <!-- colour customisation  -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'primary': '#ABEF5F',
+                'Accent': '#F4F4F4',
+                'liner': '#FFFFFFFF,#FFFFFF00',
+              },
+
+            }
+          }         
+        }
+      </script>
+</head>
+<body class="font-manrope bg-liner">
+<!-- header section  -->
+<header>
+  <!-- navbar section starts hare  -->
+  <section>
+    <div class="navbar border-solid border-2 border-sky-500 w-11/12 mx-auto my-2 ">
+        <div class="navbar-start">
+          
+          <button class="flex space-x-2">
+            <i class="justify-center items-center bg-primary py-0.5 px-2 -rotate-45 rounded-[50%] font-semibold text-2xl fa-solid fa-arrow-right"></i>
+            <h3 class="text-2xl font-bold justify-center">Rinterio</h3></button>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal text-[20px] px-1">
+      <li class="font-semibold"><a href="#">Home</a></li>
+        <li class="text-[#737373]"><a href="#">Service</a></li>
+        <li class="text-[#737373]"><a href="#">Porfolio</a></li>
+        <li class="text-[#737373]"><a href="#">Blogs</a></li>
+        <li class="text-[#737373]"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+     <div class="hidden md:block">
+      <div class="flex justify-center items-center gap-5" >
+        <i class=" opacity-40 bg-[#E9E9E9] px-2 py-2 rounded-full fa-solid fa-magnifying-glass"></i>
+        <i class=" opacity-40 bg-[#E9E9E9] px-2 py-2 rounded-full fa-solid fa-cart-shopping"></i> 
+        <a class="btn"><span class="font-bold">Book Consult</span>
+          <i class="justify-center items-center bg-[#1C1C1C] text-white py-0.5 px-2 -rotate-45 rounded-[50%] font-semibold text-2xl fa-solid fa-arrow-right"></i>
+        </a>
+       </div>
+     </div>
+     <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100  text-2xl rounded-box z-[1] mt-3 right-0  p-2 shadow ">
+        <li><a href="#">Home</a></li>
+  <li><a href="#">Service</a></li>
+  <li><a href="#">Porfolio</a></li>
+  <li><a href="#">Blogs</a></li>
+  <li><a href="#">Contact Us</a></li>
+      </ul>
+
+    </div>
+        </div>
+      </div>
+      <!-- navbar section ends hare  -->
+
+      <!-- banner section starts hare  -->
+ <section class="w-11/12 mx-auto py-10">
+  <div class="">
+<img class="justify-center items-center mx-auto w-[571.17px] h-[350px]" src="./images/banner.png" alt="">
+  </div>
+  <div class="text-center">
+   <div class=" flex flex-col text-center justify-center items-center my-5">
+    <h1 class=" font-manrope  text-center justify-center leading-tight  text-[
+    #212121] items-center md:text-5xl font-extrabold 2/10">A barn house of this design has a <br>striking appearance</h1>
+    
+    <p class=" text-center justify-center items-center text-[#494949] mt-5 sm:w-6/12 tracking-wide leading-1 tracking-wide capitalize">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+   
+
+    <button class="justify-center items-center mt-8 bg-[#bbe889] py-2 px-3 rounded-full" ><a href=""><span class="font-bold">View Details</span>
+      <i class="justify-center items-center bg-primary py-0.5 px-2.5 -rotate-45 rounded-[50%] font-semibold text-2xl fa-solid fa-arrow-right"></i>
+    </a></button>
+   </div>
+  </div>
+ </section>
+
+      <!-- banner section endss hare  -->
+  </section>
+</header>
+ <!-- main section  -->
+  <main>
+<!-- desgin setion start  -->
+<section class="bg-base-200">
+  <div class="hero w-11/12 mx-auto py-6 border-solid border-2 border-sky-500    ">
+    <div class="hero-content ">
+    <div class="lg:flex lg:justify-between ">
+      
+      <div class=" space-y-2 ">
+        <div class="relative right-10 hidden md:block mb-2">
+          <img src="./images/Vector.png" alt="">
+        </div>
+        <button class="justify-center items-center gap-1 bg-slate-50 py-1 px-1 rounded-full">
+          <i class="fa-solid fa-arrow-right"></i>
+          <span class="">About Us</span></button>
+        <h1 class="text-5xl font-bold justify-center items-center leading-tight">We design thoughtful, <br>liveable spaces</h1>
+        <p class="py-6 w-3/5 capitalize justify-center items-center ">
+          The barn house captivates with its blend of rustic charm and 
+            modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        <button class="btn btn-primary justify-center items-center mx-auto">Get Started</button>
+      
+        </div>
+        <div><img
+          src="./images/Rectangle.png"
+          class="max-w-sm ml-4 rounded-lg shadow-2xl" /></div>
+    </div>
+   
+  </div>
+  </div>
+</section>
+<!-- desgin setion end  -->
+  </main>
+  <!-- footer section  -->
+   <footer>
+
+   </footer>
+</body>
+</html>
