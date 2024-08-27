@@ -37,9 +37,9 @@
         }
       </script>
 </head>
-<body class="font-manrope bg-liner">
+<body class="font-manrope">
 <!-- header section  -->
-<header>
+<header class="bg-[#efeded]">
   <!-- navbar section starts hare  -->
   <section>
     <div class="navbar border-solid border-2 border-sky-500 w-11/12 mx-auto my-2 ">
@@ -70,7 +70,7 @@
      </div>
      <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <i class="fa-solid fa-bars"></i>
+        <i class="bg-[#FFFFFF] text-2xl py-2 px-4 rounded-full fa-solid fa-bars"></i>
       </div>
       <ul
         tabindex="0"
@@ -119,11 +119,13 @@
     <div class="space-y-7 flex flex-col justify-center">
 <div class="hidden md:block relative right-10"><img src="./images/Vector.png" alt=""></div>
 <div class="space-y-2  ">
-  <button class="px-2 py-2 md:text-start text-center bg-[#FFFFFF] rounded-full">
-  <i class="fa-solid fa-arrow-right"></i>
-  <span class="font-bold">About Us</span></button>
+  <div class="text-center md:text-left">
+    <button class="px-2 py-2 justify-center items-center    bg-[#FFFFFF] rounded-full">
+      <i class="fa-solid fa-arrow-right"></i>
+      <span class="font-bold">About Us</span></button>
+  </div>
    <h2 class="md:text-4xl text-2xl md:text-start text-center leading-tight  mb-2 font-extrabold text-black font-manrope ">We design thoughtful, <br>liveable spaces</h2>
-   <p class="text-[#494949] md:text-start text-center   tracking-tight  mt-5 py-4 capitalize" >The barn house captivates with its blend of rustic charm and 
+   <p class="text-[#494949] md:text-start text-center   tracking-tight leading-loose mt-5 py-4 capitalize" >The barn house captivates with its blend of rustic charm and 
     <br>modern sophistication, featuring weathered wood, sleek metal accents.</p>
 </div>
 <div class="space-y-3">
@@ -155,7 +157,7 @@
   <button class="px-2 py-2 bg-[#FFFFFF] rounded-full">
     <i class="fa-solid fa-arrow-right"></i>
     <span class="font-bold">How we works</span></button>
-    <h1 class="lg:text-5xl font-extrabold mt-4 sm:text-3xl text-center text-black">Our Works Process</h1>
+    <h1 class="lg:text-5xl font-extrabold mt-4 text-3xl text-center text-black">Our Works Process</h1>
     <p class="text-center mt-5 capitalize px-3">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
 </div>
 <!-- work process card content  -->
@@ -164,13 +166,13 @@
 <div class=" w-11/12 mx-auto py-10 grid lg:gap-x-5    lg:grid-cols-4  right-0 "> 
    <!-- card 1  -->
   <div class="bg-[#E7C1D3] py-5 space-y-3 px-4 rounded-xl mt-3">
-<img src="./images/concept.png" alt="">
+<img src="./images/concept.png" alt="example image">
 <h5 class="text-2xl font-bold">concept</h5>
 <p class="text-[#353434]">The barn house captivates with its blend of rustic charm and modern.</p>
   </div>
    <!-- card 2  -->
   <div class="bg-[#EFDA6E] py-5 space-y-3 px-3 rounded-xl mt-3">
-<img src="./images/flow-chart.png" alt="">
+<img src="./images/flow-chart.png" alt="example image">
 <h5 class="text-2xl font-bold">Design Process</h5>
 <p class="text-[#353434]">The barn house captivates with its blend of rustic charm and modern.</p>
   </div>
@@ -205,19 +207,19 @@
 
   <div class="w-11/12 mx-auto py-3 ">
     <!-- card 1  -->
-   <div class="grid lg:grid-cols-4 gap-4">
-    <div class="lg:flex lg:col-span-3 gap-6 px-7 rounded-xl py-3 bg-[#f9f9f9] border-solid border-2 border-slate-100">
-      <div><img src="./images/img1.png" alt=""></div>
+   <div class="grid lg:grid-cols-4 gap-x-5">
+    <div class="lg:flex lg:col-span-3 gap-5 mt-2 rounded-xl bg-[#f9f9f9] border-solid border-2 border-slate-100">
+      <div><img src="./images/img1.png" class=" w-[295px] transform scale-110 ml-5 px-4 py-4" alt="example image"></div>
       <div class="space-y-4">
-           <h4 class="text-2xl font-bold capitalize">Commercial</h4>
-           <p class="capitalize leading-loose tracking-wide">The barn house captivates with its blend of rustic charm and modern. The barn <br>house captivates with its blend of rustic charm and modern .</p>
-           <button class="justify-center items-center  rounded-full" ><a href=""><span class="font-bold">View Details</span>
+           <h4 class="text-2xl mt-3 ml-4 font-bold capitalize">Commercial</h4>
+           <p class="capitalize ml-3 leading-loose tracking-wide">The barn house captivates with its blend of rustic charm and modern. The barn <br>house captivates with its blend of rustic charm and modern .</p>
+           <button class="justify-center items-center  rounded-full ml-3 mb-1" ><a href=""><span class="font-bold">View Details</span>
             <i class="justify-center items-center bg-primary py-0.5 px-2.5 -rotate-45 rounded-[50%]  text-2xl fa-solid fa-arrow-right"></i>
           </a></button>
       </div>
       <!-- card 2  -->
     </div>
-            <img class="py-3 px-3 rounded-lg bg-[#f9f9f9] border-solid border-2 border-slate-100" src="./images/img2.png" alt="">
+            <img class="transform scale-y-105 mt-4 py-3 px-3 rounded-lg bg-[#f9f9f9] border-solid border-2 border-slate-100" src="./images/img2.png" alt="example image">
     <div>
 
     </div>
@@ -227,11 +229,11 @@
   
   <div class=" w-11/12 mx-auto py-4 grid lg:grid-cols-4 gap-3">
     <!-- card 3  -->
-    <div class="justify-center items-center mx-auto px-3 py-3 rounded-lg bg-[#f9f9f9] border-solid border-2  border-slate-100"><img src="./images/img5.png" alt=""></div>
+    <div class="justify-center items-center mx-auto px-3 py-3 rounded-lg bg-[#f9f9f9] border-solid border-2  border-slate-100"><img class="w-[295px]" src="./images/img5.png" alt="example image"></div>
 <!-- card 4  -->
-    <div class="md:flex md:col-span-2 px-3 py-3  mx-auto rounded-xl bg-[#f9f9f9] border-solid border-2 border-slate-100 gap-5">
-      <div><img class="mt-5" src="./images/img4.png" alt=""></div>
-      <div class="mt-4">
+    <div class="md:flex md:col-span-2 space-x-5 px-3 py-3  mx-auto rounded-xl bg-[#f9f9f9] border-solid border-2 border-slate-100 gap-5">
+      <div><img class="mt-5 w-[295px] h-[191px] ml-2  transform scale-110" src="./images/img4.png" alt="example image"></div>
+      <div class="mt-4 space-y-4">
         <h4 class="text-2xl font-bold capitalize">Commercial</h4>
         <p class="capitalize leading-loose tracking-wide">The barn house captivates with its blend of rustic charm and modern.</p>
         <button class="justify-center items-center  rounded-full" ><a href=""><span class="font-bold">View Details</span>
@@ -241,11 +243,11 @@
     </div>
     <!-- card 5  -->
     <div c>
-      <img class="py-3 px-3 rounded-lg bg-[#f9f9f9] border-solid border-2 mx-auto border-slate-100" src="./images/img3.png" alt="">
+      <img class="py-3 px-3 w-[295px] transform scale-110 mt-3 rounded-lg bg-[#f9f9f9] border-solid border-2 mx-auto border-slate-100" src="./images/img3.png" alt="">
     </div>
   </div> 
   <!-- hidden section  -->
-<img class="justify-center text-center items-center py-3 px-3 rounded-lg bg-[#f9f9f9] border-solid border-2 mx-auto border-slate-100 md:hidden" src="./images/img5.png" alt="">
+<img class="justify-center text-center items-center py-3 w-[295px] transform scale-110 mt-5 px-3 rounded-lg bg-[#f9f9f9] border-solid border-2 mx-auto border-slate-100 md:hidden" src="./images/img5.png" alt="">
 
 <!-- latest section ends  -->
 
@@ -330,6 +332,28 @@
   </section>
  <!-- Article and news section endss -->
 
+ <!-- self creation starts  -->
+  <section>
+    <div
+  class="hero min-h-screen"
+  style="background-image: url('/images/bg2.jpeg');">
+  <div class="hero-overlay bg-opacity-70"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="">
+    <button type="button">  <i class="lg:text-9xl text-4xl bg-white/30 py-5 px-5 rounded-full backdrop-blur-sm shadow fa-solid fa-circle-play"></i></button>
+      <h1 class="mb-9 lg:text-9xl text-4xl font-bold">The Modern House</h1>
+      <p class="mb-5 leading-loose tracking-wide text-center capitalize">
+        The modern house is a testament to contemporary design, blending sleek aesthetics with functionality. Characterized by clean lines, open spaces, and an abundance of natural light, these homes often feature minimalist interiors with a focus on sustainability. Large windows and open floor plans create a seamless connection between indoor and outdoor spaces, enhancing the sense of spaciousness. Materials like glass, steel, and concrete are commonly used, providing a sense of durability and modernity. With smart technology integrated into many aspects of the home, the modern house is not just a place to live but a reflection of an innovative and forward-thinking lifestyle.
+      </p>
+      <button class="justify-center items-center mt-8 bg-white/30 py-2 px-3 rounded-full" ><a href=""><span class="font-bold text-center">View Details</span>
+       
+      </a></button>
+    </div>
+  </div>
+</div>
+  </section>
+ <!-- self creation ends  -->
+
  <!-- Next project section starts -->
  <section class="mt-5 bg-[url('/images/bg.jpg')] bg-no-repeat bg-cover">
 
@@ -368,7 +392,7 @@
   </main>
 
   <!-- footer section  -->
-  <footer class="footer footer-center bg-black text-white p-10">
+  <footer class=" footer footer-center mt-6 bg-black text-white p-10">
     <aside>
       <div class="justify-center items-center">
           
@@ -381,12 +405,12 @@
       </p>
     <div class="">
             
-     <ul class="flex space-x-28 ">
+     <ul class=" lg:flex lg:space-x-28  ">
       <li class=""><a href="#">Home</a></li>
-        <li class=""><a href="#">Service</a></li>
-        <li class=""><a href="#">Porfolio</a></li>
-        <li class=""><a href="#">Blogs</a></li>
-        <li class=""><a href="#">Contact Us</a></li>
+        <li class="mt-4"><a href="#">Service</a></li>
+        <li class="mt-4"><a href="#">Porfolio</a></li>
+        <li class="mt-4"><a href="#">Blogs</a></li>
+        <li class="mt-4"><a href="#">Contact Us</a></li>
           </ul>
    </div>
    <a class="btn bg-primary mt-7 rounded-full"><span class="font-bold">Book Consult</span>
